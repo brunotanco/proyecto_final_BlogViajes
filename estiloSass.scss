@@ -1,0 +1,427 @@
+/* ESTRUCTURA PRINCIPAL*/
+
+header {
+    display: flex;
+    margin: 0;
+    padding: none;
+    background-color: rgb(204, 197, 185);
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding-bottom: 0;
+}
+
+main {
+    background-color: rgb(255, 252, 242);
+    padding-bottom: 20px;
+}
+
+ /*LINKS*/
+
+.card-link{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    color: rgb(255, 252, 242);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 1s; 
+}
+
+.card-link:hover{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(235, 94, 40,);
+}
+
+.card-link:active {
+    text-decoration: underline;
+    color: rgb(255, 252, 242);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    background-color: rgb(255, 252, 242);
+}
+
+/*NAVBAR*/
+
+#navbarSupportedContent{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    list-style: none;
+    color: rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    color: rgb(37, 36, 34);
+    text-decoration: none;
+    transition: all 0.3s; 
+}
+
+.nav-link:hover{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    color: rgb(235, 94, 40,);
+}
+
+.nav-link:active {
+    text-decoration: underline;
+    color: rgb(37, 36, 34);
+}
+
+#tituloInicio {
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+}
+
+.tituloMain {
+    background-color: rgb(255, 252, 242);
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-style: normal;
+    color: rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;  
+}
+
+#imgLogo {
+    display: block;
+    width: 130px;
+    height: 127px;
+    float: left;
+    margin-left: 30px;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#divLogoGrande {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 252, 242);
+}
+
+#imgLogoGrande {
+    width: 280px;
+    height: 249px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ol {
+    list-style-type: lower-greek;
+    flex-basis: 200px;
+            order:2;
+            flex-grow:0;
+}
+
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+.btn:hover {
+    background-color:rgb(235, 94, 40);
+    color: white;
+  }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(37, 36, 34);
+    padding: 0;
+}
+
+/* Logos Redes Sociales */
+
+#instagramLogo {
+    width: 50px;
+    }
+
+#facebookLogo {
+    width: 50px;
+    }
+
+#youtubeLogo {
+    width: 50px;
+    }
+
+/* INDEX */
+
+#divIndex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background-color: rgb(255, 252, 242);
+
+    #saludoGrandeIndex {
+        color:rgb(37, 36, 34);
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        text-transform: uppercase;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+    
+    #saludoChicoIndex {
+        color:rgb(37, 36, 34);
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+        padding-top: 15px;
+    }
+}
+
+#carouselExampleCaptions {
+    display: flex;
+    background-color: rgb(255, 252, 242);
+    padding-top: 15px;
+    margin: 0;
+}
+
+.carousel{
+    margin: 0;
+    padding-top: 20px;
+}
+
+.tituloCarousel{
+    color:rgb(255, 255, 255);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.pCarousel{
+    color:rgb(255, 255, 255);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+#divAside1 {
+    background-color: rgb(255, 252, 242);
+    border: 1px solid black;
+    border-top:2px black;
+    border-bottom: 2px black;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .pPoema {
+        font-family: 'Fira Sans', sans-serif;
+        color:rgb(37, 36, 34);
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+#divAsidePadre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    #divAside2 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(64, 61, 57);
+        justify-content: center;
+        padding: 20px;
+    }
+
+    #tituloAside{
+        color:rgb(255, 252, 242);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+    #parrafoAside{
+        color:rgb(255, 252, 242);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+#imgAside{
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    }
+
+#carouselExampleControls{
+    margin: 0;
+    }
+}
+
+/* DESTINOS (EUROPA - AMÉRICA DEL NORTE) */
+
+.col {
+    background-color: rgb(255, 252, 242);
+    display: grid;
+    padding: 25px;
+    justify-items: center;
+    margin-bottom: 20px;
+
+    .card {
+        background-color: rgb(64, 61, 57);
+        color:rgb(255, 252, 242);
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        width: 85%;
+        height: 85%;
+        transition: all 0.5s; 
+    }
+    
+     .card:hover {
+        height: 95%; width: 95%;
+     }
+}
+
+/* TIPS */
+
+#parrafoTips{
+    background-color: rgb(255, 252, 242);
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-align: justify;  
+    font-size: 1.1rem;
+    margin: 0;
+    padding-left: 30px;
+}
+
+/* ARTÍCULOS */
+
+.tituloPrincipalArticulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;  
+}
+
+.tituloArticulo{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(235, 94, 40);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem; 
+}
+
+.parrafoArticulo {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    justify-content: left;
+    font-size: 1rem;
+}
+
+.listaArticulo{
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/* WHO ARE WE */
+
+.parrafoWaw{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    justify-content: left;
+    font-size: 1rem;
+    padding: 25px;
+    margin: 0;
+}
+
+/* CONTACTO */
+
+#divContacto {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 10px;
+    background-color: rgb(255, 252, 242);
+
+    #formulario1 {
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-size: 1.1rem;
+    }
+    
+    #txtArea{
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    #nombre{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    #apellido{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    #email{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    #nacionalidad{
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    #recibirCorreo{
+        margin-right: 30px;
+    }
+    #checkbox{
+        display: block;
+        margin-top: 20px;
+    }
+}
+
